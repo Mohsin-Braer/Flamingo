@@ -6,7 +6,7 @@ import {
     XIcon,
   } from "@heroicons/react/outline";
   import { useRef, useState } from "react";
-  import { db, storage } from "../../utils/firebase.component";
+  import { db, storage } from "../../utils/firebase.utils";
   import {
     addDoc,
     collection,
@@ -16,13 +16,14 @@ import {
     setDoc,
   } from "@firebase/firestore";
   import { getDownloadURL, ref, uploadString } from "@firebase/storage";
-//   import { signOut, useSession } from "next-auth/react";
+  import { signOut , useSession } from "next-auth/react";
+  import { UI_COLORS } from "../../utils/colors.utils";
 //   import dynamic from "next/dynamic";
 //   import { Picker } from "emoji-mart";
 //   import "emoji-mart/css/emoji-mart.css";
   
   function Post() {
-    //const { data: session } = useSession();
+    const { data: session } = useSession();
     const [input, setInput] = useState("");
     const [loading, setLoading] = useState(false);
     const [selectedFile, setSelectedFile] = useState(null);
@@ -37,10 +38,10 @@ import {
 
         //returns a pointer reference to document created within collection "posts"
         const docRef = await addDoc(collection(db, 'posts'), {
-            // id: session.user.uid,
-            // username: session.user.name,
-            // userImg: session.user.image,
-            // tag: session.user.tag,
+            id: session.user.uid,
+            username: session.user.name,
+            userImg: session.user.image,
+            tag: session.user.tag,
             text: input,
             timestamp: serverTimestamp(),
         });
@@ -51,6 +52,10 @@ import {
             await uploadString(imageRef, selectedFile, "data_url").then(async () => {
                     const downloadURL = await getDownloadURL(imageRef);
                     await setDoc(doc(db, "posts", docRef.id), {
+                        id: session.user.uid,
+                        username: session.user.name,
+                        userImg: session.user.image,
+                        tag: session.user.tag,
                         text: input, 
                         image: downloadURL,
                         timestamp: serverTimestamp(),
@@ -91,8 +96,8 @@ import {
       <div
         className={`border-b border-gray-700 p-3 flex space-x-3 overflow-y-scroll scrollbar-hide ${loading && "opacity-60"}`}>
         <img
-          src="https://lh3.googleusercontent.com/a/AATXAJwCsuneWAkKlHwMPxOmLNjFACEvbtN8QPwbUsZ-=s96-c"
-          alt=""
+          src={session.user.image}
+          alt="https://lh3.googleusercontent.com/a/AATXAJwCsuneWAkKlHwMPxOmLNjFACEvbtN8QPwbUsZ-=s96-c"
           className="h-11 w-11 rounded-full cursor-pointer"
           
         />
@@ -130,7 +135,7 @@ import {
                   className="icon"
                   onClick={() => filePickerRef.current.click()}
                   >
-                  <PhotographIcon className="text-[#e88484] h-[22px]" />
+                  <PhotographIcon className= {`text-[#e64088] h-[22px]`} />
                   <input
                     type="file"
                     ref={filePickerRef}
@@ -140,15 +145,15 @@ import {
                 </div>
   
                 <div className="icon rotate-90">
-                  <ChartBarIcon className="text-[#e88484] h-[22px]" />
+                  <ChartBarIcon className= {`text-[#e64088] h-[22px]`}  />
                 </div>
   
                 <div className="icon" onClick={() => setShowEmojis(!showEmojis)}>
-                  <EmojiHappyIcon className="text-[#e88484] h-[22px]" />
+                  <EmojiHappyIcon className= {`text-[#e64088] h-[22px]`} />
                 </div>
   
                 <div className="icon">
-                  <CalendarIcon className="text-[#e88484] h-[22px]" />
+                  <CalendarIcon className= {`text-[#e64088] h-[22px]`} />
                 </div>
   
                 {/* {showEmojis && (
@@ -166,7 +171,7 @@ import {
                 )} */}
               </div>
               <button
-                className="bg-[#e88484] text-white rounded-full px-4 py-1.5 font-bold shadow-md hover:bg-[#ea6464] disabled:hover:bg-[#e88484] disabled:opacity-50 disabled:cursor-default"
+                className="bg-[#e64088] text-white rounded-full px-4 py-1.5 font-bold shadow-md hover:bg-[#e82378] disabled:hover:bg-[#ee79ac] disabled:opacity-50 disabled:cursor-default"
                 disabled={!input.trim() && !selectedFile}
                 onClick={sendPost}
               >

@@ -1,5 +1,6 @@
 import { SparklesIcon } from "@heroicons/react/solid";
 import Post from '../post/post.component';
+import NewsFeedData from '../news-feed-data/news-feed-data.component';
 
 const NewsFeed = () => {
 
@@ -14,6 +15,8 @@ const NewsFeed = () => {
             </div>
 
             <Post />
+            <NewsFeedData />
+
         </div>
     );
 
