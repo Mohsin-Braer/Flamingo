@@ -20,4 +20,8 @@
        @apply cursor-pointer w-9 h-9 hover:bg-[#d786a9] hover:bg-opacity-10 flex
        items-center justify-center rounded-full transition ease-out;
     }
+
+    .tag{
+        @apply text-[#e62d7d] font-normal;
+    }
 }

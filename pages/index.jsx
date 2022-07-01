@@ -6,10 +6,15 @@ import SideBar from '../components/side-bar/side-bar-container/side-bar.componen
 import NewsFeed from '../components/news-feed/news-feed.components';
 import { getProviders, getSession, useSession } from 'next-auth/react';
 import SignIn from '../components/sign-in/sign-in.component';
+import Modal from '../components/modal/modal.component';
+import { useRecoilState } from 'recoil';
+import { modalState } from '../atoms/modal.atoms';
+import Widget from '../components/widgets/widget.component';
 
 
 const Home = ({trendingResults, followingResults, providers}) => {
   const {data: session } = useSession();
+  const [isOpen, setIsOpen] = useRecoilState(modalState);
 
   if(!session) return(<SignIn providers={providers}/>);
  
@@ -24,6 +29,11 @@ const Home = ({trendingResults, followingResults, providers}) => {
       <main className="bg-black min-h-screen flex max-w-[1500px] mx-auto">
         <SideBar />
         <NewsFeed />
+        <Widget trendingResults={trendingResults} followingResults={followingResults}/>
+
+
+        {isOpen &&
+          <Modal /> }
 
       </main>
 
