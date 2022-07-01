@@ -19,10 +19,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<h3 align="center">Netflix Clone</h3>
+<h3 align="center">Flamingo</h3>
 
   <p align="center">
-    Recreating Netflix's browse page using React, React Router, React Context with log in authentication from Firebase.
+    Recreating the most popular twitter client for the Web.
     <br />
     <a href="https://github.com/sitthiph/netflix-clone/tree/main/src"><strong>Explore the Repo »</strong></a>
     <br />
