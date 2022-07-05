@@ -94,10 +94,6 @@ const firebaseConfig = {
 
 <!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
-
-- [Karl Hadwen](https://github.com/karlhadwen) - Thank you for providing a 10 hours long walkthrough of this project.
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
