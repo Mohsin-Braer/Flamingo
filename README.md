@@ -24,7 +24,7 @@
   <p align="center">
     Recreating the most popular twitter client for the Web.
     <br />
-    <a href="https://github.com/sitthiph/netflix-clone/tree/main/src"><strong>Explore the Repo »</strong></a>
+    <a href="https://github.com/Mohsin-Braer/Flamingo/"><strong>Explore the Repo »</strong></a>
     <br />
     <br />
     <a href="https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/">View Demo via Netlify</a>
@@ -35,28 +35,32 @@
 
 ## About The Project
 
-[![Netflix Clone Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Flamingo Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+
+
 
 This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners (try /browse while not logged in). Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well. User session is also saved via localStorage, user can leave the site, come back, and still be logged in. The films and Series are sorted with the help of Fuse.js.
 
 I used compound components design pattern to build my components, and there's over 10 examples as to how these are used. The styling is all handled via styled components.
 
 ### Homepage
-[![Netflix Clone Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Flamingo Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 ### Sign-in page
-[![Netflix Clone Homepage][sign-in-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Flamingo Homepage][sign-in-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 ### Browse Page
-[![Netflix Clone Homepage][browse-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Flamingo Homepage][browse-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 ### Browse Page with Search(Fuse.js) being use to filter out shows.
-[![Netflix Clone Homepage][browse-search-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Flamingo Homepage][browse-search-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
+- [Next.js]
 - [React.js](https://reactjs.org/)
-- [React Router](https://reactrouter.com/)
-- [Styled Component](https://styled-components.com/)
+- [Recoil]
+- [Tailwindcss]
+- [nextAuth]
 - [Firebase](https://firebase.google.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
