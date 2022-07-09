@@ -46,11 +46,11 @@ compound components design pattern to build my components, and there's over 10 e
 ### Homepage
 [![Flamingo Homepage][homepage-src]](https://flamingo-swart.vercel.app/)
 ### Mobile Responsive
-[![Flamingo Homepage][mobile-responsive-src]](https://flamingo-swart.vercel.app/)
+[![Flamingo Mobile Responsive Homepage][mobile-responsive-src]](https://flamingo-swart.vercel.app/)
 ### Sign-in page
-[![Flamingo Homepage][sign-in-src]](https://flamingo-swart.vercel.app/)
+[![Flamingo Sign In Page][sign-in-src]](https://flamingo-swart.vercel.app/)
 ### Comment Page
-[![Flamingo Homepage][comment-src]](https://flamingo-swart.vercel.app/)
+[![Flamingo Comment Page][comment-src]](https://flamingo-swart.vercel.app/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
