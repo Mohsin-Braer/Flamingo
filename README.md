@@ -44,11 +44,13 @@ This application was built using React (Custom Hooks, Context), Firebase. I have
 compound components design pattern to build my components, and there's over 10 examples as to how these are used. The styling is all handled via the tailwindcss and headless UI libraries.
 
 ### Homepage
-[![Flamingo Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Flamingo Homepage][homepage-src]](https://flamingo-swart.vercel.app/)
+### Mobile Responsive
+[![Flamingo Homepage][mobile-responsive-src]](https://flamingo-swart.vercel.app/)
 ### Sign-in page
-[![Flamingo Homepage][sign-in-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Flamingo Homepage][sign-in-src]](https://flamingo-swart.vercel.app/)
 ### Comment Page
-[![Flamingo Homepage][comment-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Flamingo Homepage][comment-src]](https://flamingo-swart.vercel.app/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
