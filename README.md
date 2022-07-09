@@ -37,11 +37,11 @@
 
 [![Flamingo Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 
+The Flamingo Twitter client android
 
+This application was built using React (Custom Hooks, Context), Firebase. I have built the following pages within this application: google sign in page, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners (try /browse while not logged in). Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well. User session is also saved via localStorage, user can leave the site, come back, and still be logged in. The films and Series are sorted with the help of Fuse.js.
 
-This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners (try /browse while not logged in). Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well. User session is also saved via localStorage, user can leave the site, come back, and still be logged in. The films and Series are sorted with the help of Fuse.js.
-
-I used compound components design pattern to build my components, and there's over 10 examples as to how these are used. The styling is all handled via styled components.
+compound components design pattern to build my components, and there's over 10 examples as to how these are used. The styling is all handled via the tailwindcss and headless UI libraries.
 
 ### Homepage
 [![Flamingo Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
@@ -49,18 +49,17 @@ I used compound components design pattern to build my components, and there's ov
 [![Flamingo Homepage][sign-in-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 ### Browse Page
 [![Flamingo Homepage][browse-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
-### Browse Page with Search(Fuse.js) being use to filter out shows.
-[![Flamingo Homepage][browse-search-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-- [Next.js]
+- [Next.js](https://nextjs.org/)
 - [React.js](https://reactjs.org/)
-- [Recoil]
-- [Tailwindcss]
-- [nextAuth]
+- [Recoil](https://recoiljs.org/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [nextAuth](https://next-auth.js.org/)
 - [Firebase](https://firebase.google.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -96,9 +95,6 @@ const firebaseConfig = {
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGMENTS -->
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
