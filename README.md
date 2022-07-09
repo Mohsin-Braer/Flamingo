@@ -76,13 +76,13 @@ Pretty simple and strightfoward.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Mohsin-Braer/Flamingo.git
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
-3. Enter your Firebase web app API in `firebase.prod.js`
+3. Enter your Firebase web app API in `firebase.utils.js`
 
 ```js
 const firebaseConfig = {
