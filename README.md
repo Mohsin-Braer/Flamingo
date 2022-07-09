@@ -47,8 +47,8 @@ compound components design pattern to build my components, and there's over 10 e
 [![Flamingo Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 ### Sign-in page
 [![Flamingo Homepage][sign-in-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
-### Browse Page
-[![Flamingo Homepage][browse-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+### Comment Page
+[![Flamingo Homepage][comment-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
