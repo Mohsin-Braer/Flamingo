@@ -27,7 +27,7 @@
     <a href="https://github.com/Mohsin-Braer/Flamingo/"><strong>Explore the Repo »</strong></a>
     <br />
     <br />
-    <a href="https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/">View Demo via Netlify</a>
+    <a href="hhttps://flamingo-swart.vercel.app/">View Demo via Vercel</a>
   </p>
 </div>
 
