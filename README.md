@@ -35,7 +35,7 @@
 
 ## About The Project
 
-[![Flamingo Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/)
+[![Flamingo Homepage][homepage-src]](https://62b8a174c0232376a6df4fc2--precious-nougat-d4373e.netlify.app/](https://i.postimg.cc/C503GCKZ/Flamingo-Full-Page.png)
 
 The Flamingo Twitter client android
 
