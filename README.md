@@ -27,7 +27,7 @@
     <a href="https://github.com/Mohsin-Braer/Flamingo/"><strong>Explore the Repo »</strong></a>
     <br />
     <br />
-    <a href="hhttps://flamingo-swart.vercel.app/">View Demo via Vercel</a>
+    <a href="https://flamingo-swart.vercel.app/">View Demo via Vercel</a>
   </p>
 </div>
 
