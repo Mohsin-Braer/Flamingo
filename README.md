@@ -115,7 +115,7 @@ const firebaseConfig = {
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 
-[homepage-src]: i.postimg.cc/C503GCKZ/Flamingo-Full-Page.png
-[sign-in-src]: i.postimg.cc/W4BL3cLw/Flamingo-Login-Page.png
-[comment-src]: i.postimg.cc/MGMJqK4G/Flamingo-Comment-Page.png
-[mobile-responsive-src]: i.postimg.cc/76SvJtq8/Flamingo-Mobile-Responsive.png
+[homepage-src]: https://postimg.cc/YGXDkWYk
+[sign-in-src]: https://postimg.cc/XZkDHhvr
+[comment-src]: https://postimg.cc/hJB50gKF
+[mobile-responsive-src]: https://postimg.cc/ZBYs1c9V
