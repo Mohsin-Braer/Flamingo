@@ -37,11 +37,11 @@
 
 [![Flamingo Homepage][homepage-src]](https://flamingo-swart.vercel.app/)
 
-The Flamingo Twitter client android
+Flamingo for Android was one of the most popular third-party Twitter clients to have been developed. Unfortunately since it's discontinuationg from the Google Play Store, there has yet to be a web-based version of the app. Introducing Flamingo for the Web! 
 
-This application was built using React (Custom Hooks, Context), Firebase. I have built the following pages within this application: google sign in page, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners (try /browse while not logged in). Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well. User session is also saved via localStorage, user can leave the site, come back, and still be logged in. The films and Series are sorted with the help of Fuse.js.
+This mobile responsive application was built using Next.js (a React framework) along with Firebase in order to recreate Twitter from scratch in addition to the UI components that are unique to the Flamingo twitter client. I have built the following pages within this application: google sign in page, a homepage & lastly an additional comment page where one can see a thread of comments from a variety of different users attached to an original post. There are four different pages, some using protected routes with auth listeners (try /browse while not logged in). Firebase firestore handles the storage of documents and firebase cloud storage is utilized to store any media files that attached to any posts (that data is retrieved using a custom hook); authentication is used on all pages, which is handled by nextAuth and Next.js as well. User session is also saved via localStorage, a user can leave the site, come back, and still be logged in.
 
-compound components design pattern to build my components, and there's over 10 examples as to how these are used. The styling is all handled via the tailwindcss and headless UI libraries.
+compound component design architecture to build the components required for this project, and there's over 10 examples as to how these are used. The styling is all handled via the tailwindcss and headless UI libraries.
 
 ### Homepage
 [![Flamingo Homepage][homepage-src]](https://flamingo-swart.vercel.app/)
@@ -61,6 +61,7 @@ compound components design pattern to build my components, and there's over 10 e
 - [React.js](https://reactjs.org/)
 - [Recoil](https://recoiljs.org/)
 - [Tailwindcss](https://tailwindcss.com/)
+- [Headless UI](https://headlessui.com/)
 - [nextAuth](https://next-auth.js.org/)
 - [Firebase](https://firebase.google.com/)
 
