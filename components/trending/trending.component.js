@@ -28,7 +28,7 @@ const Trending = ({ result }) => {
                 />
             ) : (
                 <div className="icon group">
-                <DotsHorizontalIcon className="h-5 text-[#6e767d] group-hover:text-[#e62d7d]" />
+                <DotsHorizontalIcon className="h-5 text-[#6e767d] group-hover:text-[#e62d7ds]" />
                 </div>
             )}
         </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SidebarLink from '../side-bar-link/side-bar-link.component';
-import { HomeIcon } from '@heroicons/react/solid';
+import { HomeIcon } from '@heroicons/react/outline';
 import {
     HashtagIcon,
     BellIcon,
@@ -10,7 +10,7 @@ import {
     UserIcon,
     DotsCircleHorizontalIcon,
     DotsHorizontalIcon,
-  } from '@heroicons/react/solid';
+  } from '@heroicons/react/outline';
   import { UI_COLORS } from '../../../utils/colors.utils';
   import { signOut , useSession } from "next-auth/react";
 

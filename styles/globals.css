@@ -22,6 +22,6 @@
     }
 
     .tag{
-        @apply text-[#e62d7d] font-normal;
+        @apply text-[#e62d7d] font-normal hover:underline cursor-pointer;
     }
 }
