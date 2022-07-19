@@ -115,7 +115,7 @@ const firebaseConfig = {
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 
-[homepage-src]: https://postimg.cc/YGXDkWYk
+[homepage-src]: ./images/Flamingo-Full-Page.png
 [sign-in-src]: https://postimg.cc/XZkDHhvr
 [comment-src]: https://postimg.cc/hJB50gKF
 [mobile-responsive-src]: https://postimg.cc/ZBYs1c9V
