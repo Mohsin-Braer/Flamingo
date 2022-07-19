@@ -35,7 +35,7 @@
 
 ## About The Project
 
-[![Flamingo Homepage][homepage-src]](https://flamingo-swart.vercel.app/)
+[![Flamingo Homepage](https://postimg.cc/YGXDkWYk)](https://flamingo-swart.vercel.app/)
 
 Flamingo for Android was one of the most popular third-party Twitter clients to have been developed. Unfortunately since it's discontinuationg from the Google Play Store, there has yet to be a web-based version of the app. Introducing Flamingo for the Web! 
 
@@ -121,3 +121,4 @@ const firebaseConfig = {
 [mobile-responsive-src]: https://postimg.cc/ZBYs1c9V
 
 [demo-img-gallery-link]: https://postimg.cc/gallery/Ym8nYm9
+[![name](link to image on GH)](link to your URL)
