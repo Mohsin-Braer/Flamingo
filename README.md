@@ -47,10 +47,10 @@ Compound component design architecture to build the components required for this
 [![Flamingo Homepage][homepage-src]](https://flamingo-swart.vercel.app/)
 ### Mobile Responsive
 [![Flamingo Mobile Responsive Homepage][mobile-responsive-src]](https://flamingo-swart.vercel.app/)
-### Sign-in page
-[![Flamingo Sign In Page][sign-in-src]](https://flamingo-swart.vercel.app/)
 ### Comment Page
 [![Flamingo Comment Page][comment-src]](https://flamingo-swart.vercel.app/)
+### Sign-in page
+[![Flamingo Sign In Page][sign-in-src]](https://flamingo-swart.vercel.app/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
