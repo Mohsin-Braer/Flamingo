@@ -39,9 +39,9 @@
 
 Flamingo for Android was one of the most popular third-party Twitter clients to have been developed. Unfortunately since it's discontinuationg from the Google Play Store, there has yet to be a web-based version of the app. Introducing Flamingo for the Web! 
 
-This mobile responsive application was built using Next.js (a React framework) along with Firebase in order to recreate Twitter from scratch in addition to the UI components that are unique to the Flamingo twitter client. The following pages have been developed within this application: google sign in page, a homepage & lastly an additional comment page where one can see a thread of comments from a variety of different users attached to an original post. There are three different pages, some using the protected routes functionality from nextAuth. Firebase firestore handles the storage of documents and firebase cloud storage is utilized to store any media files that are attached to any posts (that data is retrieved using a custom hook); authentication is used on all pages, which is handled by nextAuth and Next.js as well. User session is also saved via a userSession, a user can leave the site, come back, and still be logged in. Recoil is utilized as the state managment library of choice to store a selected post's ID in addition to its modal state.
+This mobile responsive application was built using Next.js (a React framework) along with Firebase in order to recreate Twitter from scratch in addition to the UI components that are unique to the Flamingo twitter client. The following pages have been developed within this application: google sign in page, a homepage & lastly an additional comment page where one can see a thread of comments from a variety of different users attached to an original post. There are three different pages, some using the protected routes functionality from nextAuth. Firebase firestore handles the storage of documents and firebase cloud storage is utilized to store any media files that are attached to any posts (that data is retrieved using a custom hook); authentication is used on all pages, which is handled by nextAuth and Next.js as well. User session is also saved via a userSession, a user can leave the site, come back, and still be logged in. Recoil is utilized as the state managment library of choice to store a selected post's ID in addition to its modal state. Easily sign out of your profile and session by simply clicking on your profile tag on the bottom left side of the screen!
 
-Compound component design architecture to build the components required for this project (see multiple examples through the github repository). The styling is all handled via the tailwindcss and headless UI libraries.
+Compound component design architecture to build the components required for this project (see multiple examples throughout the github repository). The styling is all handled via the tailwindcss and headless UI libraries.
 
 ### Homepage
 [![Flamingo Homepage][homepage-src]](https://flamingo-swart.vercel.app/)
@@ -118,6 +118,6 @@ const firebaseConfig = {
 [homepage-src]: ./images/Flamingo-Full-Page.png
 [sign-in-src]: ./images/Flamingo-Login-Page.png
 [comment-src]: ./images/Flamingo-Comment-Page.png
-[mobile-responsive-src]: ./images/Flamingo-Mobile-Responsive-Page.png
+[mobile-responsive-src]: ./images/Flamingo-Mobile-Responsive.png
 
 [demo-img-external-gallery-link]: https://postimg.cc/gallery/Ym8nYm9
