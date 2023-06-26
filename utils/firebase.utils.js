@@ -5,7 +5,7 @@ import { getStorage } from "firebase/storage";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCLI6FfdwdCghvA7BNVI-Cq15WG4_UQ1lw",
+    apiKey: "",
     authDomain: "flamingo-twitter.firebaseapp.com",
     projectId: "flamingo-twitter",
     storageBucket: "flamingo-twitter.appspot.com",
